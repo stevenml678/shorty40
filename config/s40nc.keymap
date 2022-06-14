@@ -39,14 +39,14 @@
         
         	raise_layer {
 			bindings = <
-                &kp ESC  &kp APOS   &kp SEMI  &kp COMMA     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_LPAR  &kp KP_RPAR  &trans
-                &trans   &kp LBKT   &kp RBKT  &trans        &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS   &kp KP_PLUS      &kp TAB                   &kp BSPC
-                &shift   &kp BSLH   &none     &kp KP_CLEAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL   &kp KP_ENTER                  &kp UP       &tog CONTROL
-                &trans   &trans     &trans    &kp SPACE                &kp KP_N0             &kp DOT                         &kp LEFT     &kp DOWN     &kp RIGHT
+                &kp ESC   &kp APOS   &kp SEMI  &kp COMMA     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_LPAR  &kp KP_RPAR  &trans
+                &trans    &kp LBKT   &kp RBKT  &trans        &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS   &kp KP_PLUS      &kp TAB                   &kp BSPC
+                &kp LSHFT &kp BSLH   &none     &kp KP_CLEAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL   &kp KP_ENTER                  &kp UP       &tog CONTROL
+                &trans    &trans     &trans    &kp SPACE                &kp KP_N0             &kp DOT                         &kp LEFT     &kp DOWN     &kp RIGHT
 			>;
 		};
         
-        	c ontrol_layer {
+        	control_layer {
 			bindings = <
                 &kp F1    &kp F2       &kp F3   &kp F4        &kp F5        &kp F6        &kp F7        &kp F8        &kp F9   &kp F10       &kp F11       &kp 12
                 &kp F13   &kp F14      &kp F15  &kp F16       &kp F17       &kp F18       &kp F19       &kp F20       &kp F21  &kp F22                     &kp F23
